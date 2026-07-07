@@ -264,13 +264,36 @@ h3 {
   text-transform: uppercase;
 }
 
+.preset-hero {
+  background:
+    linear-gradient(90deg, rgba(15, 15, 14, 0.86), rgba(15, 15, 14, 0.42)),
+    url("https://images.squarespace-cdn.com/content/v1/5e549e8a4082bc549de09b9f/1586747270238-8WA20P3KM1SKGA688ZK4/Website+Cover.jpg?format=1500w")
+      center / cover;
+  color: var(--white);
+  display: grid;
+  min-height: 68vh;
+  padding: clamp(78px, 10vw, 136px) clamp(20px, 5vw, 72px);
+}
+
+.preset-hero > div {
+  align-self: end;
+  max-width: 860px;
+}
+
+.preset-hero p:not(.eyebrow) {
+  color: rgba(255, 250, 241, 0.78);
+  font-size: clamp(1.08rem, 2vw, 1.32rem);
+  max-width: 640px;
+}
+
 .listen-section,
 .shop-section,
 .sessions-section,
 .about-section,
 .gear-section,
 .press-section,
-.contact-section {
+.contact-section,
+.preset-downloads {
   padding: clamp(64px, 8vw, 118px) clamp(20px, 5vw, 72px);
 }
 
@@ -442,6 +465,69 @@ h3 {
   font-weight: 900;
   margin-top: 12px;
   text-transform: uppercase;
+}
+
+.muted-link {
+  color: rgba(15, 15, 14, 0.46);
+}
+
+.preset-downloads {
+  background: var(--paper);
+}
+
+.free-downloads {
+  background: var(--paper-2);
+}
+
+.download-feature {
+  align-items: center;
+  background: var(--soft-ink);
+  color: var(--white);
+  display: grid;
+  gap: 24px;
+  grid-template-columns: minmax(260px, 1fr) auto;
+  padding: clamp(24px, 4vw, 42px);
+}
+
+.download-feature p {
+  color: rgba(255, 250, 241, 0.7);
+}
+
+.download-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--line-dark);
+  border: 1px solid var(--line-dark);
+}
+
+.download-grid article {
+  background: var(--paper);
+  display: grid;
+  min-height: 260px;
+  padding: 24px;
+}
+
+.download-grid span,
+.download-grid strong {
+  color: var(--gold);
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.download-grid h3 {
+  align-self: end;
+}
+
+.download-grid p {
+  color: rgba(15, 15, 14, 0.68);
+}
+
+.download-grid strong {
+  align-self: end;
+  color: rgba(15, 15, 14, 0.44);
 }
 
 .gear-section {
@@ -677,6 +763,14 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .download-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .download-feature {
+    grid-template-columns: 1fr;
+  }
+
   .session-list a,
   .press-list a {
     grid-template-columns: 58px 1fr;
@@ -727,7 +821,8 @@ h3 {
   .about-section,
   .gear-section,
   .press-section,
-  .contact-section {
+  .contact-section,
+  .preset-downloads {
     padding-left: 18px;
     padding-right: 18px;
   }
@@ -738,6 +833,7 @@ h3 {
   }
 
   .product-grid,
+  .download-grid,
   .gear-grid,
   .social-grid,
   .brand-cloud {
