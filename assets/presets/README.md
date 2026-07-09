@@ -1,15 +1,7 @@
-# Preset Files
+# Preset Downloads
 
-Add the actual Line 6 preset download files here.
+The free preset cards currently link to Jemmuel Magtibay's original Squarespace download store.
 
-Suggested filenames:
+Squarespace exposes the digital-good metadata but protects the raw asset URLs, so do not add copied files here unless the real `.hsp`, `.hlx`, or `.pgp` files are supplied directly.
 
-- `jem-stadium-helix-stadium.zip`
-- `church-ac30-dc30-helix.zip`
-- `dc30-jtm45-helix.zip`
-- `american-boutiq-hx-stomp.zip`
-- `british-boutiq-hx-stomp.zip`
-- `american-boutiq-pod-go.zip`
-- `british-boutiq-pod-go.zip`
-
-After the files are added, the cards in `presets.html` can be switched from `File pending` to real local download links.
+If local hosting is needed later, add verified files here and update the matching links in `presets.html`.

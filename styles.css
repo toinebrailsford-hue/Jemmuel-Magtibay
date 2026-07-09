@@ -663,11 +663,24 @@ h3 {
   border: 1px solid var(--line-dark);
 }
 
-.download-grid article {
+.download-grid article,
+.download-grid a {
   background: var(--paper);
+  color: inherit;
   display: grid;
   min-height: 260px;
   padding: 24px;
+  text-decoration: none;
+  transition:
+    background 180ms ease,
+    color 180ms ease;
+}
+
+.download-grid a:hover,
+.download-grid a:focus-visible {
+  background: var(--ink);
+  color: var(--paper);
+  outline: none;
 }
 
 .download-grid span,
@@ -687,9 +700,14 @@ h3 {
   color: rgba(15, 15, 14, 0.68);
 }
 
+.download-grid a:hover p,
+.download-grid a:focus-visible p {
+  color: rgba(255, 250, 241, 0.72);
+}
+
 .download-grid strong {
   align-self: end;
-  color: rgba(15, 15, 14, 0.44);
+  color: var(--gold);
 }
 
 .gear-section {
