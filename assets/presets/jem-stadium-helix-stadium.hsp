@@ -1,0 +1,2428 @@
+rpshnosj{
+  "meta": {
+    "color": "auto",
+    "device_id": 2490368,
+    "device_version": 318833973,
+    "info": "",
+    "name": "Jem STADIUM"
+  },
+  "preset": {
+    "clip": {
+      "end": 10.0,
+      "filename": "<EMPTY>",
+      "path": "USER CLIPS",
+      "start": 0.0
+    },
+    "commands": {
+      "16843266": [
+        {
+          "behavior": "latching",
+          "curve": "linear",
+          "delay": 0,
+          "goid": 0,
+          "ordinal": 0,
+          "params": {
+            "Action": {
+              "value": 0
+            },
+            "Command": {
+              "value": 7
+            },
+            "Preset": {
+              "value": 0
+            },
+            "Setlist": {
+              "value": 0
+            },
+            "Snapshot": {
+              "value": 0
+            }
+          },
+          "threshold": 0.0,
+          "toggle": false,
+          "type": "PresetSnapshot"
+        }
+      ],
+      "16843267": [
+        {
+          "behavior": "latching",
+          "curve": "linear",
+          "delay": 0,
+          "goid": 0,
+          "ordinal": 0,
+          "params": {
+            "Action": {
+              "value": 0
+            },
+            "Command": {
+              "value": 7
+            },
+            "Preset": {
+              "value": 0
+            },
+            "Setlist": {
+              "value": 0
+            },
+            "Snapshot": {
+              "value": 1
+            }
+          },
+          "threshold": 0.0,
+          "toggle": false,
+          "type": "PresetSnapshot"
+        }
+      ],
+      "16843268": [
+        {
+          "behavior": "latching",
+          "curve": "linear",
+          "delay": 0,
+          "goid": 0,
+          "ordinal": 0,
+          "params": {
+            "Action": {
+              "value": 0
+            },
+            "Command": {
+              "value": 7
+            },
+            "Preset": {
+              "value": 0
+            },
+            "Setlist": {
+              "value": 0
+            },
+            "Snapshot": {
+              "value": 2
+            }
+          },
+          "threshold": 0.0,
+          "toggle": false,
+          "type": "PresetSnapshot"
+        }
+      ],
+      "16843272": [
+        {
+          "behavior": "latching",
+          "curve": "linear",
+          "delay": 0,
+          "goid": 0,
+          "ordinal": 0,
+          "params": {
+            "Action": {
+              "value": 0
+            },
+            "Command": {
+              "value": 7
+            },
+            "Preset": {
+              "value": 0
+            },
+            "Setlist": {
+              "value": 0
+            },
+            "Snapshot": {
+              "value": 3
+            }
+          },
+          "threshold": 0.0,
+          "toggle": false,
+          "type": "PresetSnapshot"
+        }
+      ],
+      "16843273": [
+        {
+          "behavior": "latching",
+          "curve": "linear",
+          "delay": 0,
+          "goid": 0,
+          "ordinal": 0,
+          "params": {
+            "Action": {
+              "value": 0
+            },
+            "Command": {
+              "value": 7
+            },
+            "Preset": {
+              "value": 0
+            },
+            "Setlist": {
+              "value": 0
+            },
+            "Snapshot": {
+              "value": 4
+            }
+          },
+          "threshold": 0.0,
+          "toggle": true,
+          "type": "PresetSnapshot"
+        }
+      ],
+      "16843274": [
+        {
+          "behavior": "latching",
+          "curve": "linear",
+          "delay": 0,
+          "goid": 0,
+          "ordinal": 0,
+          "params": {
+            "Action": {
+              "value": 0
+            },
+            "Command": {
+              "value": 7
+            },
+            "Preset": {
+              "value": 0
+            },
+            "Setlist": {
+              "value": 0
+            },
+            "Snapshot": {
+              "value": 7
+            }
+          },
+          "threshold": 0.0,
+          "toggle": true,
+          "type": "PresetSnapshot"
+        }
+      ]
+    },
+    "cursor": {
+      "flow": 1,
+      "path": 0,
+      "position": 8
+    },
+    "flow": [
+      {
+        "@enabled": {
+          "value": true
+        },
+        "b00": {
+          "@enabled": {
+            "value": true
+          },
+          "endpoint": "b13",
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            }
+          },
+          "path": 0,
+          "position": 0,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "P35_InputInst1_2",
+              "params": {
+                "Pad": {
+                  "1": {
+                    "value": 1
+                  },
+                  "2": {
+                    "value": 1
+                  }
+                },
+                "StereoLink": {
+                  "value": false
+                },
+                "Trim": {
+                  "1": {
+                    "value": 0.0
+                  },
+                  "2": {
+                    "value": 0.0
+                  }
+                },
+                "decay": {
+                  "1": {
+                    "value": 0.5
+                  },
+                  "2": {
+                    "value": 0.5
+                  }
+                },
+                "noiseGate": {
+                  "1": {
+                    "value": false
+                  },
+                  "2": {
+                    "value": false
+                  }
+                },
+                "threshold": {
+                  "1": {
+                    "value": -48.0
+                  },
+                  "2": {
+                    "value": -48.0
+                  }
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "input"
+        },
+        "b01": {
+          "@enabled": {
+            "snapshots": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "value": true
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "ControlSource": {
+                "value": 0
+              },
+              "EvtIdx": {
+                "value": -1
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 1,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HX2_CompressorDeluxeCompMono",
+              "params": {
+                "Attack": {
+                  "value": 0.16600000858306885
+                },
+                "Knee": {
+                  "value": 7.600000381469727
+                },
+                "Level": {
+                  "value": 7.0
+                },
+                "Mix": {
+                  "value": 0.5
+                },
+                "Ratio": {
+                  "value": 2
+                },
+                "Release": {
+                  "value": 1.1100001335144043
+                },
+                "Threshold": {
+                  "value": -37.099998474121094
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b02": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": true,
+              "midisource": 0,
+              "min": false,
+              "source": 16843265,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              false,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false
+            ],
+            "value": false
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 2,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_PitchDualPitchMono",
+              "params": {
+                "Cents1": {
+                  "value": 0.0
+                },
+                "Cents2": {
+                  "value": 0.0
+                },
+                "Interval1": {
+                  "value": -12
+                },
+                "Interval2": {
+                  "value": 12
+                },
+                "Level": {
+                  "value": 0.0
+                },
+                "LevelVoice1": {
+                  "value": 1.0
+                },
+                "LevelVoice2": {
+                  "value": 1.0
+                },
+                "Mix": {
+                  "value": 0.3499999940395355
+                },
+                "Time1": {
+                  "value": 0.0
+                },
+                "Time2": {
+                  "value": 0.0
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b03": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": true,
+              "midisource": 0,
+              "min": false,
+              "source": 16844032,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ],
+            "value": false
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 3,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_WahThroatyMono",
+              "params": {
+                "FcHigh": {
+                  "value": 1735.0
+                },
+                "FcLow": {
+                  "value": 310.0
+                },
+                "Level": {
+                  "value": 0.0
+                },
+                "Mix": {
+                  "value": 1.0
+                },
+                "Pedal": {
+                  "controller": {
+                    "behavior": "continuous",
+                    "bypassed": true,
+                    "curve": "linear",
+                    "delay": 0,
+                    "goid": 0,
+                    "max": 1.0,
+                    "midisource": 0,
+                    "min": 0.0,
+                    "source": 16908544,
+                    "threshold": 0.0,
+                    "type": "param"
+                  },
+                  "value": 0.0
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b04": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": 1.0,
+              "midisource": 0,
+              "min": 0.0,
+              "source": 16843008,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              false,
+              false,
+              true
+            ],
+            "value": true
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 4,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_DistTeemahMono",
+              "params": {
+                "Bass": {
+                  "value": 0.5
+                },
+                "Clipping": {
+                  "value": 0
+                },
+                "Gain": {
+                  "value": 0.27000001072883606
+                },
+                "Level": {
+                  "value": 0.7599999904632568
+                },
+                "Treble": {
+                  "value": 0.5999999046325684
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b05": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": 1.0,
+              "midisource": 0,
+              "min": 0.0,
+              "source": 16843009,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              false,
+              false,
+              false,
+              true,
+              false,
+              false,
+              false,
+              false
+            ],
+            "value": false
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 5,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_DistHeirApparentMono",
+              "params": {
+                "Clipping": {
+                  "value": 0
+                },
+                "Gain": {
+                  "value": 0.30000001192092896
+                },
+                "GainMod": {
+                  "value": 0
+                },
+                "Level": {
+                  "value": 1.0
+                },
+                "Presence": {
+                  "value": 0.0
+                },
+                "Tone": {
+                  "value": 0.6000000238418579
+                },
+                "Voltage": {
+                  "value": true
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b06": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": true,
+              "midisource": 0,
+              "min": false,
+              "source": 16843270,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ],
+            "value": false
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 6,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_DistPrizeDriveMono",
+              "params": {
+                "Bass Cut": {
+                  "value": false
+                },
+                "Drive": {
+                  "value": 0.1830500215291977
+                },
+                "Level": {
+                  "value": 0.7119500041007996
+                },
+                "Spectrum": {
+                  "value": 0.7200000286102295
+                },
+                "Voltage": {
+                  "value": true
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b07": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": 1.0,
+              "midisource": 0,
+              "min": 0.0,
+              "source": 16843010,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false
+            ],
+            "value": false
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 7,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_DistDhyanaDriveMono",
+              "params": {
+                "Gain": {
+                  "value": 0.1599999964237213
+                },
+                "Level": {
+                  "value": 0.8899999856948853
+                },
+                "Tone": {
+                  "value": 0.41999998688697815
+                },
+                "Voice": {
+                  "value": 0.4399999976158142
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b08": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": 1.0,
+              "midisource": 0,
+              "min": 0.0,
+              "source": 16843011,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              false,
+              false,
+              false,
+              true,
+              false,
+              false,
+              false,
+              false
+            ],
+            "value": false
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 8,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_DistKinkyBoostMono",
+              "params": {
+                "Boost": {
+                  "value": true
+                },
+                "Bright": {
+                  "value": false
+                },
+                "Drive": {
+                  "value": 0.09000003337860107
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b09": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": 1.0,
+              "midisource": 0,
+              "min": 0.0,
+              "source": 16844032,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "value": true
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 9,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_VolPanVolMono",
+              "params": {
+                "Pedal": {
+                  "controller": {
+                    "behavior": "continuous",
+                    "bypassed": true,
+                    "curve": "linear",
+                    "delay": 0,
+                    "goid": 0,
+                    "max": 1.0,
+                    "midisource": 0,
+                    "min": 0.0,
+                    "source": 16908545,
+                    "threshold": 0.0,
+                    "type": "param"
+                  },
+                  "value": 1.0
+                },
+                "VolumeTaper": {
+                  "value": true
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b10": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": true,
+              "midisource": 0,
+              "min": false,
+              "source": 16843271,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              true,
+              true,
+              false
+            ],
+            "value": false
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 10,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_VibratoBubbleVibratoMono",
+              "params": {
+                "Depth": {
+                  "value": 0.25999999046325684
+                },
+                "Headroom": {
+                  "value": 5.2760009765625
+                },
+                "Level": {
+                  "value": 0.6559993624687195
+                },
+                "Mix": {
+                  "value": 0.38999998569488525
+                },
+                "RiseTime": {
+                  "value": 0.5288000106811523
+                },
+                "RiseTimeSwitch": {
+                  "value": true
+                },
+                "Speed": {
+                  "value": 0.25
+                },
+                "SyncSelect1": {
+                  "value": 6
+                },
+                "TempoSync1": {
+                  "value": false
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b13": {
+          "@enabled": {
+            "value": true
+          },
+          "endpoint": "b00",
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            }
+          },
+          "path": 0,
+          "position": 13,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "P35_OutputPath2A",
+              "params": {
+                "gain": {
+                  "value": 0.0
+                },
+                "pan": {
+                  "value": 0.5
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "output"
+        }
+      },
+      {
+        "@enabled": {
+          "value": true
+        },
+        "b00": {
+          "@enabled": {
+            "value": true
+          },
+          "endpoint": "b13",
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            }
+          },
+          "path": 0,
+          "position": 0,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "P35_InputNone",
+              "params": {
+                "Trim": {
+                  "value": 0.0
+                },
+                "decay": {
+                  "value": 0.5
+                },
+                "noiseGate": {
+                  "value": false
+                },
+                "threshold": {
+                  "value": -48.0
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "input"
+        },
+        "b01": {
+          "@enabled": {
+            "snapshots": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "value": true
+          },
+          "favorite": 261,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 1,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "Agoura_AmpEssexTB30CC",
+              "params": {
+                "AmpCabPeak2Fc": {
+                  "value": 1000.0
+                },
+                "AmpCabPeak2G": {
+                  "value": 0.0
+                },
+                "AmpCabPeak2Q": {
+                  "value": 0.7070000171661377
+                },
+                "AmpCabPeakFc": {
+                  "value": 100.0
+                },
+                "AmpCabPeakG": {
+                  "value": 0.0
+                },
+                "AmpCabPeakQ": {
+                  "value": 0.7070000171661377
+                },
+                "AmpCabShelfF": {
+                  "value": 1000.0
+                },
+                "AmpCabShelfG": {
+                  "value": 0.0
+                },
+                "AmpCabZFir": {
+                  "value": 0
+                },
+                "AmpCabZUpdate": {
+                  "value": 0
+                },
+                "Bass": {
+                  "value": 0.5
+                },
+                "BrtDrv": {
+                  "value": 0.2199999988079071
+                },
+                "Channel": {
+                  "value": 1
+                },
+                "HighCut": {
+                  "value": 0.05000000074505806
+                },
+                "Hype": {
+                  "value": 0.3400000035762787
+                },
+                "Level": {
+                  "value": -0.10000000149011612
+                },
+                "Master": {
+                  "value": 1.0
+                },
+                "NrmDrv": {
+                  "value": 0.2199999988079071
+                },
+                "Ripple": {
+                  "value": 0.0
+                },
+                "Sag": {
+                  "value": 0.0
+                },
+                "Treble": {
+                  "value": 0.550000011920929
+                },
+                "ZPrePost": {
+                  "value": 1.0
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "amp"
+        },
+        "b02": {
+          "@enabled": {
+            "snapshots": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "value": true
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "bypass": {
+                "value": false
+              },
+              "dual": {
+                "value": true
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 2,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_CabMicIr_4x12Greenback25WithPan",
+              "params": {
+                "Angle": {
+                  "value": 0.0
+                },
+                "Delay": {
+                  "value": 0.0
+                },
+                "Distance": {
+                  "value": 1.0
+                },
+                "HighCut": {
+                  "value": 20100.0
+                },
+                "IrData": {
+                  "value": 0
+                },
+                "Level": {
+                  "value": 0.0
+                },
+                "LowCut": {
+                  "value": 19.899999618530273
+                },
+                "Mic": {
+                  "value": 5
+                },
+                "Pan": {
+                  "value": 0.5
+                },
+                "Position": {
+                  "value": 0.24000000953674316
+                }
+              },
+              "version": 0
+            },
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_CabMicIr_4x12Greenback20WithPan",
+              "params": {
+                "Angle": {
+                  "value": 0.0
+                },
+                "Delay": {
+                  "value": 0.0
+                },
+                "Distance": {
+                  "value": 1.0
+                },
+                "HighCut": {
+                  "value": 20100.0
+                },
+                "IrData": {
+                  "value": 0
+                },
+                "Level": {
+                  "value": 0.0
+                },
+                "LowCut": {
+                  "value": 19.899999618530273
+                },
+                "Mic": {
+                  "value": 7
+                },
+                "Pan": {
+                  "value": 0.5
+                },
+                "Position": {
+                  "value": 0.25
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "cab"
+        },
+        "b03": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": 1.0,
+              "midisource": 0,
+              "min": 0.0,
+              "source": 16843012,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              false,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false
+            ],
+            "value": false
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 3,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_MM4Dimension",
+              "params": {
+                "Level": {
+                  "value": -0.03670305013656616
+                },
+                "Mix": {
+                  "value": 0.3999999761581421
+                },
+                "SW1": {
+                  "value": true
+                },
+                "SW2": {
+                  "value": true
+                },
+                "SW3": {
+                  "value": true
+                },
+                "SW4": {
+                  "value": true
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b04": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": 1.0,
+              "midisource": 0,
+              "min": 0.0,
+              "source": 16843014,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              true,
+              true,
+              true,
+              false,
+              false,
+              true,
+              true,
+              true
+            ],
+            "value": true
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "Trails": {
+                "value": false
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 4,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_DelayAdriaticDelayStereo",
+              "params": {
+                "BBD Size": {
+                  "value": 3
+                },
+                "Depth": {
+                  "value": 0.03999999910593033
+                },
+                "Feedback": {
+                  "value": 0.4699999988079071
+                },
+                "Headroom": {
+                  "value": 12.0
+                },
+                "Level": {
+                  "value": 0.0
+                },
+                "Mix": {
+                  "snapshots": [
+                    0.23000000417232513,
+                    0.36000001430511475,
+                    0.36000001430511475,
+                    0.2199999988079071,
+                    0.36000001430511475,
+                    0.36000001430511475,
+                    0.36000001430511475,
+                    0.36000001430511475
+                  ],
+                  "value": 0.23000000417232513
+                },
+                "Noise": {
+                  "value": 0.07999999821186066
+                },
+                "Rate": {
+                  "value": 0.30000001192092896
+                },
+                "Scale": {
+                  "value": 1.0
+                },
+                "Spread": {
+                  "value": 1.0
+                },
+                "SyncSelect1": {
+                  "value": 6
+                },
+                "TempoSync1": {
+                  "value": true
+                },
+                "Time": {
+                  "value": 0.5
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b05": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": 1.0,
+              "midisource": 0,
+              "min": 0.0,
+              "source": 16843015,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              true,
+              false,
+              true
+            ],
+            "value": false
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "Trails": {
+                "value": true
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 5,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_DelayVintageDigitalStereoV2",
+              "params": {
+                "BitDepth": {
+                  "value": 4
+                },
+                "Depth": {
+                  "value": 0.20000004768371582
+                },
+                "Feedback": {
+                  "value": 0.4500000476837158
+                },
+                "Headroom": {
+                  "value": 0.0
+                },
+                "Level": {
+                  "value": 0.0
+                },
+                "Mix": {
+                  "value": 0.4500000476837158
+                },
+                "Rate": {
+                  "value": 0.20000004768371582
+                },
+                "SampleRate": {
+                  "value": 3
+                },
+                "Scale": {
+                  "value": 1.0
+                },
+                "SyncSelect1": {
+                  "value": 8
+                },
+                "TempoSync1": {
+                  "value": true
+                },
+                "Time": {
+                  "value": 0.5
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b06": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": 1.0,
+              "midisource": 0,
+              "min": 0.0,
+              "source": 16843016,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true
+            ],
+            "value": true
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "Trails": {
+                "value": true
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 6,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_DelayDualDelayStereo",
+              "params": {
+                "Depth": {
+                  "value": 0.3500000238418579
+                },
+                "HighCut": {
+                  "value": 20100.0
+                },
+                "Left Time": {
+                  "value": 0.375
+                },
+                "LeftFeedback": {
+                  "value": 0.4500000476837158
+                },
+                "Level": {
+                  "value": 0.0
+                },
+                "LowCut": {
+                  "value": 19.899999618530273
+                },
+                "MixL": {
+                  "value": 0.33000001311302185
+                },
+                "MixR": {
+                  "value": 0.33000001311302185
+                },
+                "ModulationMode": {
+                  "value": 0
+                },
+                "Right Time": {
+                  "value": 0.5
+                },
+                "RightFeedback": {
+                  "value": 0.46000003814697266
+                },
+                "Speed": {
+                  "value": 0.04999995231628418
+                },
+                "Spread": {
+                  "value": 1.0
+                },
+                "SyncSelect1": {
+                  "value": 8
+                },
+                "SyncSelect2": {
+                  "value": 6
+                },
+                "TempoSync1": {
+                  "value": true
+                },
+                "TempoSync2": {
+                  "value": true
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b07": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": true,
+              "midisource": 0,
+              "min": false,
+              "source": 16843264,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true
+            ],
+            "value": false
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "Trails": {
+                "value": true
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 7,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_DelayDualDelayStereo",
+              "params": {
+                "Depth": {
+                  "value": 0.15000000596046448
+                },
+                "HighCut": {
+                  "value": 3300.0
+                },
+                "Left Time": {
+                  "value": 0.375
+                },
+                "LeftFeedback": {
+                  "value": 0.8600000143051147
+                },
+                "Level": {
+                  "value": 0.0
+                },
+                "LowCut": {
+                  "value": 88.0
+                },
+                "MixL": {
+                  "value": 0.27000001072883606
+                },
+                "MixR": {
+                  "value": 0.25999999046325684
+                },
+                "ModulationMode": {
+                  "value": 2
+                },
+                "Right Time": {
+                  "value": 0.5
+                },
+                "RightFeedback": {
+                  "value": 0.8399999737739563
+                },
+                "Speed": {
+                  "value": 0.05000000074505806
+                },
+                "Spread": {
+                  "value": 1.0
+                },
+                "SyncSelect1": {
+                  "value": 6
+                },
+                "SyncSelect2": {
+                  "value": 10
+                },
+                "TempoSync1": {
+                  "value": true
+                },
+                "TempoSync2": {
+                  "value": true
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b08": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": 1.0,
+              "midisource": 0,
+              "min": 0.0,
+              "source": 16843018,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true
+            ],
+            "value": false
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "Trails": {
+                "value": true
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 8,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "VIC_ReverbRotatingStereo",
+              "params": {
+                "BassBoost": {
+                  "value": 0.0
+                },
+                "BassFreq": {
+                  "value": 100.0
+                },
+                "Damping": {
+                  "value": 3720.0
+                },
+                "Decay": {
+                  "value": 5.299999713897705
+                },
+                "Diffusion": {
+                  "value": 0.7000000476837158
+                },
+                "HighCut": {
+                  "value": 6300.0
+                },
+                "Level": {
+                  "value": 0.0
+                },
+                "LowCut": {
+                  "value": 117.0
+                },
+                "Mix": {
+                  "value": 0.30000001192092896
+                },
+                "Motion": {
+                  "value": 0.28999996185302734
+                },
+                "Predelay": {
+                  "value": 0.04999995231628418
+                },
+                "RoomSize": {
+                  "value": 1
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b09": {
+          "@enabled": {
+            "controller": {
+              "behavior": "latching",
+              "bypassed": false,
+              "curve": "linear",
+              "delay": 0,
+              "goid": 0,
+              "max": true,
+              "midisource": 0,
+              "min": false,
+              "source": 16843017,
+              "threshold": 0.0,
+              "type": "targetbypass"
+            },
+            "snapshots": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "value": true
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "Trails": {
+                "value": true
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 9,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_ReverbGlitzStereo",
+              "params": {
+                "Decay": {
+                  "snapshots": [
+                    0.75,
+                    0.3400000035762787,
+                    0.3400000035762787,
+                    0.699999988079071,
+                    0.3400000035762787,
+                    0.3400000035762787,
+                    0.3400000035762787,
+                    0.8999999761581421
+                  ],
+                  "value": 0.75
+                },
+                "Delay": {
+                  "value": 0.06496001780033112
+                },
+                "Depth": {
+                  "value": 0.5064000487327576
+                },
+                "HighCut": {
+                  "value": 8580.0
+                },
+                "Level": {
+                  "value": 0.0
+                },
+                "LowCut": {
+                  "value": 130.98001098632813
+                },
+                "Mix": {
+                  "snapshots": [
+                    0.20999999344348907,
+                    0.25,
+                    0.25,
+                    0.23000000417232513,
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.3199999928474426
+                  ],
+                  "value": 0.20999999344348907
+                },
+                "Mod Mix": {
+                  "value": 0.5643999576568604
+                },
+                "Predelay": {
+                  "value": 0.10400000214576721
+                },
+                "Rate": {
+                  "value": 1.812400221824646
+                },
+                "SyncSelect1": {
+                  "value": 6
+                },
+                "TempoSync1": {
+                  "value": false
+                },
+                "Xover": {
+                  "value": 4712.0
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b10": {
+          "@enabled": {
+            "snapshots": [
+              true,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true
+            ],
+            "value": true
+          },
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            },
+            "params": {
+              "EvtIdx": {
+                "value": -1
+              },
+              "Trails": {
+                "value": true
+              },
+              "bypass": {
+                "value": false
+              },
+              "upper": {
+                "value": true
+              }
+            }
+          },
+          "path": 0,
+          "position": 10,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "HD2_ReverbPlateStereo",
+              "params": {
+                "Decay": {
+                  "value": 0.2200000286102295
+                },
+                "HighCut": {
+                  "value": 4570.0
+                },
+                "Level": {
+                  "value": 0.0
+                },
+                "LowCut": {
+                  "value": 90.0
+                },
+                "Mix": {
+                  "value": 0.26999998092651367
+                },
+                "Predelay": {
+                  "value": 0.014999985694885254
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "fx"
+        },
+        "b13": {
+          "@enabled": {
+            "value": true
+          },
+          "endpoint": "b00",
+          "favorite": 0,
+          "harness": {
+            "@enabled": {
+              "value": true
+            }
+          },
+          "path": 0,
+          "position": 13,
+          "slot": [
+            {
+              "@enabled": {
+                "value": true
+              },
+              "model": "P35_OutputMatrix",
+              "params": {
+                "gain": {
+                  "value": 0.0
+                },
+                "pan": {
+                  "value": 0.5
+                }
+              },
+              "version": 0
+            }
+          ],
+          "type": "output"
+        }
+      }
+    ],
+    "params": {
+      "activeexpsw": 1,
+      "activesnapshot": 0,
+      "inst1Z": "FirstBlock",
+      "inst2Z": "FirstBlock",
+      "tempo": 72.66099548339844
+    },
+    "snapshots": [
+      {
+        "color": "white",
+        "expsw": 1,
+        "name": "Clean",
+        "source": 0,
+        "tempo": 120.0,
+        "valid": true
+      },
+      {
+        "color": "yellow",
+        "expsw": -1,
+        "name": "Rhythm 1",
+        "source": 0,
+        "tempo": 82.95513916015625,
+        "valid": true
+      },
+      {
+        "color": "dkorange",
+        "expsw": -1,
+        "name": "Rhythm 2",
+        "source": 0,
+        "tempo": 84.55113983154297,
+        "valid": true
+      },
+      {
+        "color": "pink",
+        "expsw": 1,
+        "name": "THICC",
+        "source": 0,
+        "tempo": 120.0,
+        "valid": true
+      },
+      {
+        "color": "turquoise",
+        "expsw": -1,
+        "name": "ChorusRthm",
+        "source": 0,
+        "tempo": 120.0,
+        "valid": true
+      },
+      {
+        "color": "blue",
+        "expsw": -1,
+        "name": "ChorusVibe",
+        "source": 0,
+        "tempo": 120.0,
+        "valid": true
+      },
+      {
+        "color": "dkorange",
+        "expsw": -1,
+        "name": "ChorSwell",
+        "source": 0,
+        "tempo": 120.0,
+        "valid": true
+      },
+      {
+        "color": "purple",
+        "expsw": -1,
+        "name": "Washy",
+        "source": 0,
+        "tempo": 77.70188903808594,
+        "valid": true
+      }
+    ],
+    "sources": {
+      "16843008": {
+        "bypass": false,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843009": {
+        "bypass": false,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843010": {
+        "bypass": false,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843011": {
+        "bypass": false,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843012": {
+        "bypass": false,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843013": {
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843014": {
+        "bypass": false,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843015": {
+        "bypass": false,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843016": {
+        "bypass": false,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843017": {
+        "bypass": false,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843018": {
+        "bypass": false,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843019": {
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843264": {
+        "bypass": true,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843265": {
+        "bypass": true,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843266": {
+        "bypass": true,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843267": {
+        "bypass": true,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843268": {
+        "bypass": true,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843269": {
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843270": {
+        "bypass": true,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843271": {
+        "bypass": true,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843272": {
+        "bypass": true,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843273": {
+        "bypass": true,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843274": {
+        "bypass": true,
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16843275": {
+        "fs_color": "auto",
+        "fs_label": "",
+        "fs_topidx": 0
+      },
+      "16844032": {
+        "bypass": false
+      },
+      "16908544": {
+        "bypass": false
+      },
+      "16908545": {
+        "bypass": false
+      },
+      "33685760": {
+        "bypass": false
+      },
+      "33685761": {
+        "bypass": false
+      },
+      "33685762": {
+        "bypass": false
+      },
+      "33685763": {
+        "bypass": false
+      }
+    },
+    "xyctrl": {
+      "rbtime": 0.5,
+      "rubberband": 1,
+      "x": 0,
+      "y": 0
+    }
+  }
+}

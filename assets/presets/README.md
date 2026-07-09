@@ -1,7 +1,13 @@
 # Preset Downloads
 
-The free preset cards currently link to Jemmuel Magtibay's original Squarespace download store.
+The free preset cards in `presets.html` download directly from this folder.
 
-Squarespace exposes the digital-good metadata but protects the raw asset URLs, so do not add copied files here unless the real `.hsp`, `.hlx`, or `.pgp` files are supplied directly.
+Current files:
 
-If local hosting is needed later, add verified files here and update the matching links in `presets.html`.
+- `jem-stadium-helix-stadium.hsp`
+- `church-ac30-dc30-helix.hlx`
+- `dc30-jtm45-helix.hlx`
+- `american-boutiq-hx-stomp.hlx`
+- `british-boutiq-hx-stomp.hlx`
+- `american-boutiq-pod-go.pgp`
+- `british-boutiq-pod-go.pgp`
